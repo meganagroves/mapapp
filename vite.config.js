@@ -9,5 +9,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: 'https://github.com/meganagroves/mapapp.git', // Replace 'your-repo-name' with your GitHub repository name
+  base: '/mapapp/', // Replace 'your-repo-name' with your GitHub repository name
 });
